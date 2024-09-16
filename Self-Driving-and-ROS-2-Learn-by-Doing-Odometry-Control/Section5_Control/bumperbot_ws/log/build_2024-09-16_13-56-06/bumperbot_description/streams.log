@@ -1,0 +1,75 @@
+[0.089s] Invoking command in '/home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description
+[0.355s] -- The C compiler identification is GNU 11.4.0
+[0.692s] -- The CXX compiler identification is GNU 11.4.0
+[0.755s] -- Detecting C compiler ABI info
+[1.157s] -- Detecting C compiler ABI info - done
+[1.220s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.222s] -- Detecting C compile features
+[1.225s] -- Detecting C compile features - done
+[1.238s] -- Detecting CXX compiler ABI info
+[1.711s] -- Detecting CXX compiler ABI info - done
+[1.755s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.756s] -- Detecting CXX compile features
+[1.759s] -- Detecting CXX compile features - done
+[1.765s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.458s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.889s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.089s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.544s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.566s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.571s] -- Added test 'lint_cmake' to check CMake code style
+[3.576s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.607s] -- Added test 'xmllint' to check XML markup files
+[3.607s] -- Configuring done
+[3.622s] -- Generating done
+[3.627s] -- Build files have been written to: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description
+[3.658s] Invoked command in '/home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/src/bumperbot_description -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description
+[3.660s] Invoking command in '/home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[3.854s] Invoked command in '/home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[3.983s] Invoking command in '/home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description
+[4.012s] -- Install configuration: ""
+[4.014s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[4.015s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[4.015s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[4.016s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[4.017s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[4.018s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[4.024s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[4.148s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[4.150s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[4.158s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[4.165s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models
+[4.174s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane
+[4.175s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_4.sdf
+[4.176s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_2.sdf
+[4.177s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.config
+[4.181s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_3.sdf
+[4.182s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.sdf
+[4.184s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun
+[4.185s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_4.sdf
+[4.188s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_2.sdf
+[4.190s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.config
+[4.191s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_3.sdf
+[4.194s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.sdf
+[4.195s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[4.196s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[4.197s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[4.199s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[4.200s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[4.201s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[4.202s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[4.203s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[4.209s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[4.213s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[4.214s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[4.215s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[4.218s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[4.219s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[4.220s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[4.220s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[4.221s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[4.225s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[4.227s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[4.228s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[4.229s] -- Installing: /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[4.230s] Invoked command in '/home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving-and-ROS-2-Learn-by-Doing-Odometry-Control/Section5_Control/bumperbot_ws/build/bumperbot_description
