@@ -29,12 +29,32 @@
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
 -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
 -- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg
+[ 16%] [32mBuilding CXX object CMakeFiles/Template.dir/src/Template.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/hello_publisher_node.dir/src/hello_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_subscriber_node.dir/src/hello_subscriber.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable Template[0m
+[ 66%] Built target Template
+[ 83%] [32m[1mLinking CXX executable hello_publisher_node[0m
+[ 83%] Built target hello_publisher_node
+[100%] [32m[1mLinking CXX executable hello_subscriber_node[0m
+[100%] Built target hello_subscriber_node
 -- Install configuration: ""
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/Template
+-- Set runtime path of "/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/Template" to ""
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hello_publisher_node
+-- Set runtime path of "/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hello_publisher_node" to ""
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hello_subscriber_node
+-- Set runtime path of "/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hello_subscriber_node" to ""
 -- Installing: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
 -- Installing: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
 -- Installing: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh

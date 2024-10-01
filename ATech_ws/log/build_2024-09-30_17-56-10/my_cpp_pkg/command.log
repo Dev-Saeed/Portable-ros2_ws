@@ -1,2 +1,0 @@
-Invoking command in '/home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg -- -j4 -l4
-Invoked command in '/home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg -- -j4 -l4
