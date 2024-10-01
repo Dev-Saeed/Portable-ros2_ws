@@ -1,0 +1,26 @@
+[0.052s] Invoking command in '/home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg -- -j4 -l4
+[0.272s] [ 33%] Built target Template
+[0.282s] [ 66%] Built target hello_subscriber_node
+[0.306s] [100%] Built target hello_publisher_node
+[0.345s] Invoked command in '/home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg -- -j4 -l4
+[0.494s] Invoking command in '/home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg
+[0.522s] -- Install configuration: ""
+[0.525s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/Template
+[0.528s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hello_publisher_node
+[0.529s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/lib/my_cpp_pkg/hello_subscriber_node
+[0.531s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.533s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.534s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.534s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.536s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.538s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.540s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.541s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.542s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.544s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.545s] -- Installing: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.545s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.548s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.548s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.550s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.551s] Invoked command in '/home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/ATech_ws/build/my_cpp_pkg

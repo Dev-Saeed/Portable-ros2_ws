@@ -1,0 +1,32 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description
+-- Install configuration: ""
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/launch
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/meshes
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/models
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/urdf
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/rviz
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/src
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/include
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/include/Agrisentenel_Description
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/ament_index/resource_index/package_run_dependencies/Agrisentenel_Description
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/ament_index/resource_index/parent_prefix_path/Agrisentenel_Description
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/environment/ament_prefix_path.sh
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/environment/path.sh
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/environment/path.dsv
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/local_setup.bash
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/local_setup.sh
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/local_setup.zsh
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/local_setup.dsv
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/package.dsv
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/ament_index/resource_index/packages/Agrisentenel_Description
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/cmake/Agrisentenel_DescriptionConfig.cmake
+-- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/cmake/Agrisentenel_DescriptionConfig-version.cmake
+-- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/package.xml

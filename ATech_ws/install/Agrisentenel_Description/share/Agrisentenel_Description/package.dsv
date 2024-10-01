@@ -1,0 +1,8 @@
+source;share/Agrisentenel_Description/hook/cmake_prefix_path.ps1
+source;share/Agrisentenel_Description/hook/cmake_prefix_path.dsv
+source;share/Agrisentenel_Description/hook/cmake_prefix_path.sh
+source;share/Agrisentenel_Description/local_setup.bash
+source;share/Agrisentenel_Description/local_setup.dsv
+source;share/Agrisentenel_Description/local_setup.ps1
+source;share/Agrisentenel_Description/local_setup.sh
+source;share/Agrisentenel_Description/local_setup.zsh

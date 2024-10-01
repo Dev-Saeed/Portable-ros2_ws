@@ -1,0 +1,32 @@
+[0.071s] Invoking command in '/home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description -- -j4 -l4
+[0.211s] Invoked command in '/home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description -- -j4 -l4
+[0.368s] Invoking command in '/home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description
+[0.418s] -- Install configuration: ""
+[0.422s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/launch
+[0.424s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/launch/test.launch.py
+[0.425s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/meshes
+[0.425s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/models
+[0.425s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/urdf
+[0.426s] -- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/urdf/agrisentenel_gazebo.xacro
+[0.426s] -- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/urdf/agrisentenel.urdf.xacro
+[0.428s] -- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/urdf/agrisentenel_ros2_control.xacro
+[0.429s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/rviz
+[0.429s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/src
+[0.429s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/include
+[0.430s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/include/Agrisentenel_Description
+[0.430s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/ament_index/resource_index/package_run_dependencies/Agrisentenel_Description
+[0.430s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/ament_index/resource_index/parent_prefix_path/Agrisentenel_Description
+[0.431s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/environment/ament_prefix_path.sh
+[0.431s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/environment/ament_prefix_path.dsv
+[0.432s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/environment/path.sh
+[0.432s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/environment/path.dsv
+[0.437s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/local_setup.bash
+[0.439s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/local_setup.sh
+[0.439s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/local_setup.zsh
+[0.440s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/local_setup.dsv
+[0.440s] -- Installing: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/package.dsv
+[0.440s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/ament_index/resource_index/packages/Agrisentenel_Description
+[0.441s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/cmake/Agrisentenel_DescriptionConfig.cmake
+[0.441s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/cmake/Agrisentenel_DescriptionConfig-version.cmake
+[0.450s] -- Up-to-date: /home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description/share/Agrisentenel_Description/package.xml
+[0.450s] Invoked command in '/home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/ATech_ws/build/Agrisentenel_Description

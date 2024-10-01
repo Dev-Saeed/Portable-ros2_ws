@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<robot name="agrisentenel" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- Include Gazebo Parameters -->
+  <xacro:include filename="$(find Agrisentenel_Description)/urdf/agrisentenel_gazebo.xacro" />
+
+  <!-- Include ros2_control Plugins -->
+  <xacro:include filename="$(find Agrisentenel_Description)/urdf/agrisentenel_ros2_control.xacro" />
+  
+
+</robot>

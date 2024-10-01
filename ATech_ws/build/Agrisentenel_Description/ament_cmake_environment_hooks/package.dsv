@@ -1,0 +1,4 @@
+source;share/Agrisentenel_Description/local_setup.bash
+source;share/Agrisentenel_Description/local_setup.dsv
+source;share/Agrisentenel_Description/local_setup.sh
+source;share/Agrisentenel_Description/local_setup.zsh
