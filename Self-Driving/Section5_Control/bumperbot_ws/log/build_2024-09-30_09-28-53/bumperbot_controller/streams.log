@@ -1,0 +1,24 @@
+[0.150s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[1.623s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller -- -j4 -l4
+[1.866s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller
+[1.909s] -- Install configuration: ""
+[1.922s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[1.922s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[1.923s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[1.923s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[1.923s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[1.927s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[1.930s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[1.931s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[1.931s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[1.931s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[1.963s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[1.963s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[1.963s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[1.967s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[1.967s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[1.968s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[1.969s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[1.969s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[1.969s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[2.002s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller

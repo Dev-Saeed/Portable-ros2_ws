@@ -1,0 +1,49 @@
+[0.128s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[1.557s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description -- -j4 -l4
+[1.789s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description
+[1.850s] -- Install configuration: ""
+[1.853s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch
+[1.855s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py
+[1.856s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py
+[1.856s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes
+[1.857s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL
+[1.857s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL
+[1.860s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL
+[1.878s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL
+[1.881s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL
+[1.881s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL
+[1.885s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models
+[1.887s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane
+[1.887s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_4.sdf
+[1.888s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_2.sdf
+[1.888s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.config
+[1.888s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_3.sdf
+[1.889s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.sdf
+[1.893s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun
+[1.894s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_4.sdf
+[1.902s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_2.sdf
+[1.921s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.config
+[1.922s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_3.sdf
+[1.922s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.sdf
+[1.922s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf
+[1.924s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro
+[1.930s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro
+[1.933s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro
+[1.933s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz
+[1.938s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz
+[1.939s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description
+[1.939s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description
+[1.940s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh
+[1.940s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv
+[1.941s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh
+[1.943s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv
+[1.944s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash
+[1.944s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh
+[1.944s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh
+[1.945s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv
+[1.945s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv
+[1.946s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description
+[1.946s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake
+[1.947s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake
+[1.948s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml
+[2.024s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description

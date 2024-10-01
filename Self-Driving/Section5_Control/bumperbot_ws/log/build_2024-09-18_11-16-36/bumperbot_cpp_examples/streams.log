@@ -1,0 +1,70 @@
+[0.079s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples
+[0.344s] -- The C compiler identification is GNU 11.4.0
+[0.605s] -- The CXX compiler identification is GNU 11.4.0
+[0.637s] -- Detecting C compiler ABI info
+[0.956s] -- Detecting C compiler ABI info - done
+[1.010s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.013s] -- Detecting C compile features
+[1.016s] -- Detecting C compile features - done
+[1.033s] -- Detecting CXX compiler ABI info
+[1.381s] -- Detecting CXX compiler ABI info - done
+[1.424s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.426s] -- Detecting CXX compile features
+[1.431s] -- Detecting CXX compile features - done
+[1.442s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.138s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.529s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.720s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.746s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.801s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.878s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.975s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.223s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.236s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.608s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.699s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.848s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.885s] -- Looking for pthread.h
+[4.141s] -- Looking for pthread.h - found
+[4.142s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.406s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.410s] -- Found Threads: TRUE  
+[4.960s] -- Configuring done
+[5.021s] -- Generating done
+[5.029s] -- Build files have been written to: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples
+[5.064s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples
+[5.072s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[5.236s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[5.237s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[5.242s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[18.817s] [ 66%] [32m[1mLinking CXX executable simple_parameter[0m
+[19.587s] [ 66%] Built target simple_parameter
+[25.222s] [ 83%] [32m[1mLinking CXX executable simple_publisher[0m
+[26.108s] [ 83%] Built target simple_publisher
+[40.442s] [100%] [32m[1mLinking CXX executable simple_subscriber[0m
+[42.141s] [100%] Built target simple_subscriber
+[42.180s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[42.283s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples
+[42.306s] -- Install configuration: ""
+[42.306s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[42.313s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[42.314s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[42.333s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[42.333s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[42.335s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[42.336s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[42.337s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[42.338s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[42.339s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[42.339s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[42.340s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[42.341s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[42.341s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[42.342s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[42.343s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[42.344s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[42.344s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[42.345s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[42.346s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[42.346s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[42.354s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples

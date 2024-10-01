@@ -1,0 +1,678 @@
+[0.000000] (-) TimerEvent: {}
+[0.001442] (bumperbot_controller) JobQueued: {'identifier': 'bumperbot_controller', 'dependencies': OrderedDict()}
+[0.002095] (bumperbot_cpp_examples) JobQueued: {'identifier': 'bumperbot_cpp_examples', 'dependencies': OrderedDict()}
+[0.002622] (bumperbot_description) JobQueued: {'identifier': 'bumperbot_description', 'dependencies': OrderedDict()}
+[0.002908] (bumperbot_py_examples) JobQueued: {'identifier': 'bumperbot_py_examples', 'dependencies': OrderedDict()}
+[0.003357] (bumperbot_controller) JobStarted: {'identifier': 'bumperbot_controller'}
+[0.039097] (bumperbot_cpp_examples) JobStarted: {'identifier': 'bumperbot_cpp_examples'}
+[0.054048] (bumperbot_description) JobStarted: {'identifier': 'bumperbot_description'}
+[0.070371] (bumperbot_py_examples) JobStarted: {'identifier': 'bumperbot_py_examples'}
+[0.100817] (-) TimerEvent: {}
+[0.101956] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'cmake'}
+[0.102792] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/src/bumperbot_controller', '-DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.113739] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'cmake'}
+[0.114530] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/src/bumperbot_cpp_examples', '-DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.133293] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'cmake'}
+[0.134586] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/src/bumperbot_description', '-DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.201023] (-) TimerEvent: {}
+[0.301948] (-) TimerEvent: {}
+[0.378542] (bumperbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.382829] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.392483] (bumperbot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.402136] (-) TimerEvent: {}
+[0.502946] (-) TimerEvent: {}
+[0.603816] (-) TimerEvent: {}
+[0.643693] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.654393] (bumperbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.676579] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.680589] (bumperbot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.681356] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.703993] (-) TimerEvent: {}
+[0.710173] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.804268] (-) TimerEvent: {}
+[0.905447] (-) TimerEvent: {}
+[0.995602] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.005628] (-) TimerEvent: {}
+[1.009661] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.014124] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.048476] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.049334] (bumperbot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.051361] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.051960] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.053468] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.055710] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.062291] (bumperbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.063447] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.065140] (bumperbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.068681] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.071860] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.078621] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.105832] (-) TimerEvent: {}
+[1.207183] (-) TimerEvent: {}
+[1.308169] (-) TimerEvent: {}
+[1.409659] (-) TimerEvent: {}
+[1.419772] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.420273] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.426407] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.463610] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.465549] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.466253] (bumperbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.467557] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.469618] (bumperbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.470628] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.474176] (bumperbot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.475345] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.477498] (bumperbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.480781] (bumperbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.481549] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.484943] (bumperbot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.509849] (-) TimerEvent: {}
+[1.612346] (-) TimerEvent: {}
+[1.713373] (-) TimerEvent: {}
+[1.814490] (-) TimerEvent: {}
+[1.917549] (-) TimerEvent: {}
+[2.018493] (-) TimerEvent: {}
+[2.119508] (-) TimerEvent: {}
+[2.176722] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.189920] (bumperbot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.190716] (bumperbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.219712] (-) TimerEvent: {}
+[2.320889] (-) TimerEvent: {}
+[2.421669] (-) TimerEvent: {}
+[2.522448] (-) TimerEvent: {}
+[2.568646] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.585610] (bumperbot_description) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[2.622614] (-) TimerEvent: {}
+[2.723580] (-) TimerEvent: {}
+[2.759668] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.785211] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.789571] (bumperbot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.823774] (-) TimerEvent: {}
+[2.840649] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.917372] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.923930] (-) TimerEvent: {}
+[2.926630] (bumperbot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.939778] (bumperbot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[2.944092] (bumperbot_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller\n'}
+[2.967554] (bumperbot_controller) CommandEnded: {'returncode': 0}
+[2.969332] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'build'}
+[2.969460] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller', '--', '-j4', '-l4'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.013981] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.024099] (-) TimerEvent: {}
+[3.107831] (bumperbot_controller) CommandEnded: {'returncode': 0}
+[3.124261] (-) TimerEvent: {}
+[3.186672] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.204735] (bumperbot_controller) JobProgress: {'identifier': 'bumperbot_controller', 'progress': 'install'}
+[3.211272] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.215684] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.218881] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.224428] (-) TimerEvent: {}
+[3.229630] (bumperbot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.235292] (bumperbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.240077] (bumperbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_controller'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.250054] (bumperbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[3.261462] (bumperbot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description\n'}
+[3.262171] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.273676] (bumperbot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.274764] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch\n'}
+[3.275407] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.276909] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py\n'}
+[3.278809] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config\n'}
+[3.280145] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml\n'}
+[3.282193] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller\n'}
+[3.283908] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller\n'}
+[3.285509] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh\n'}
+[3.287385] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv\n'}
+[3.290562] (bumperbot_description) CommandEnded: {'returncode': 0}
+[3.295076] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'build'}
+[3.295363] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description', '--', '-j4', '-l4'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.297775] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh\n'}
+[3.298626] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv\n'}
+[3.299088] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash\n'}
+[3.299486] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh\n'}
+[3.299860] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh\n'}
+[3.300233] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv\n'}
+[3.300600] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv\n'}
+[3.300974] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller\n'}
+[3.301353] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake\n'}
+[3.302687] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake\n'}
+[3.304260] (bumperbot_controller) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml\n'}
+[3.322498] (bumperbot_controller) CommandEnded: {'returncode': 0}
+[3.324641] (-) TimerEvent: {}
+[3.425622] (-) TimerEvent: {}
+[3.446055] (bumperbot_description) CommandEnded: {'returncode': 0}
+[3.492540] (bumperbot_controller) JobEnded: {'identifier': 'bumperbot_controller', 'rc': 0}
+[3.526058] (-) TimerEvent: {}
+[3.539325] (bumperbot_description) JobProgress: {'identifier': 'bumperbot_description', 'progress': 'install'}
+[3.539879] (bumperbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_description'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.574246] (bumperbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.575643] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch\n'}
+[3.577058] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/display.launch.py\n'}
+[3.579210] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/launch/gazebo.launch.py\n'}
+[3.580762] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes\n'}
+[3.581902] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_rear_link.STL\n'}
+[3.587207] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_left_link.STL\n'}
+[3.596904] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/base_link.STL\n'}
+[3.626271] (-) TimerEvent: {}
+[3.640326] (bumperbot_py_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bumperbot_py_examples', 'build', '--build-base', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build', 'install', '--record', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/src/bumperbot_py_examples', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dev', 'LC_TIME': 'tr_TR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/dev', 'OLDPWD': '/home/dev/ros2_ws/Self-Driving/Section5_Control', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '1368', 'SYSTEMD_EXEC_PID': '1528', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4209', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'dev', 'JOURNAL_STREAM': '8:31081', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dev', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505', 'INVOCATION_ID': 'c408134b291c4033ad1c337d125bcf62', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.MPNGU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples', 'TURTLEBOT3_MODEL': 'waffle', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.645763] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.700922] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/imu_link.STL\n'}
+[3.703895] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/wheel_right_link.STL\n'}
+[3.718120] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/meshes/caster_front_link.STL\n'}
+[3.722954] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models\n'}
+[3.723824] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane\n'}
+[3.724363] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_4.sdf\n'}
+[3.725066] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_2.sdf\n'}
+[3.725537] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.config\n'}
+[3.726234] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model-1_3.sdf\n'}
+[3.726845] (-) TimerEvent: {}
+[3.727890] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/ground_plane/model.sdf\n'}
+[3.728613] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun\n'}
+[3.729274] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_4.sdf\n'}
+[3.729964] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_2.sdf\n'}
+[3.730570] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.config\n'}
+[3.731127] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model-1_3.sdf\n'}
+[3.731919] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/models/sun/model.sdf\n'}
+[3.732537] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf\n'}
+[3.733029] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_gazebo.xacro\n'}
+[3.733716] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot.urdf.xacro\n'}
+[3.734623] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/urdf/bumperbot_ros2_control.xacro\n'}
+[3.735084] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz\n'}
+[3.735748] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/rviz/display.rviz\n'}
+[3.736256] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/package_run_dependencies/bumperbot_description\n'}
+[3.737101] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/parent_prefix_path/bumperbot_description\n'}
+[3.738389] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.739240] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.sh\n'}
+[3.739856] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/ament_prefix_path.dsv\n'}
+[3.740521] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.sh\n'}
+[3.741157] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/environment/path.dsv\n'}
+[3.741816] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.bash\n'}
+[3.742257] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.sh\n'}
+[3.742746] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.zsh\n'}
+[3.743325] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/local_setup.dsv\n'}
+[3.743772] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.dsv\n'}
+[3.744460] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/ament_index/resource_index/packages/bumperbot_description\n'}
+[3.745212] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig.cmake\n'}
+[3.745981] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/cmake/bumperbot_descriptionConfig-version.cmake\n'}
+[3.746447] (bumperbot_description) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_description/share/bumperbot_description/package.xml\n'}
+[3.759304] (bumperbot_description) CommandEnded: {'returncode': 0}
+[3.827034] (-) TimerEvent: {}
+[3.886972] (bumperbot_cpp_examples) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.890819] (bumperbot_description) JobEnded: {'identifier': 'bumperbot_description', 'rc': 0}
+[3.921577] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.927180] (-) TimerEvent: {}
+[4.027749] (-) TimerEvent: {}
+[4.128576] (-) TimerEvent: {}
+[4.179828] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.181617] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.228751] (-) TimerEvent: {}
+[4.329416] (-) TimerEvent: {}
+[4.430091] (-) TimerEvent: {}
+[4.445049] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.449042] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.530257] (-) TimerEvent: {}
+[4.630950] (-) TimerEvent: {}
+[4.731574] (-) TimerEvent: {}
+[4.791615] (bumperbot_py_examples) StdoutLine: {'line': b'running egg_info\n'}
+[4.794193] (bumperbot_py_examples) StdoutLine: {'line': b'creating ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info\n'}
+[4.795073] (bumperbot_py_examples) StdoutLine: {'line': b'writing ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO\n'}
+[4.796099] (bumperbot_py_examples) StdoutLine: {'line': b'writing dependency_links to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt\n'}
+[4.796844] (bumperbot_py_examples) StdoutLine: {'line': b'writing entry points to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt\n'}
+[4.797436] (bumperbot_py_examples) StdoutLine: {'line': b'writing requirements to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt\n'}
+[4.798044] (bumperbot_py_examples) StdoutLine: {'line': b'writing top-level names to ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt\n'}
+[4.798811] (bumperbot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[4.806327] (bumperbot_py_examples) StdoutLine: {'line': b"reading manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[4.810332] (bumperbot_py_examples) StdoutLine: {'line': b"writing manifest file '../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'\n"}
+[4.811177] (bumperbot_py_examples) StdoutLine: {'line': b'running build\n'}
+[4.811968] (bumperbot_py_examples) StdoutLine: {'line': b'running build_py\n'}
+[4.812531] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build\n'}
+[4.812997] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib\n'}
+[4.813569] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[4.814196] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/simple_subscriber.py -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[4.814920] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/simple_parameter.py -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[4.815465] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/simple_publisher.py -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[4.816069] (bumperbot_py_examples) StdoutLine: {'line': b'copying bumperbot_py_examples/__init__.py -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples\n'}
+[4.816489] (bumperbot_py_examples) StdoutLine: {'line': b'running install\n'}
+[4.817128] (bumperbot_py_examples) StdoutLine: {'line': b'running install_lib\n'}
+[4.819364] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[4.820118] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[4.820890] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[4.821546] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[4.822032] (bumperbot_py_examples) StdoutLine: {'line': b'copying /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples\n'}
+[4.823205] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc\n'}
+[4.824944] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc\n'}
+[4.826681] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc\n'}
+[4.828302] (bumperbot_py_examples) StdoutLine: {'line': b'byte-compiling /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc\n'}
+[4.829088] (bumperbot_py_examples) StdoutLine: {'line': b'running install_data\n'}
+[4.829906] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/share/ament_index\n'}
+[4.831056] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index\n'}
+[4.831536] (bumperbot_py_examples) StdoutLine: {'line': b'creating /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages\n'}
+[4.831914] (-) TimerEvent: {}
+[4.832286] (bumperbot_py_examples) StdoutLine: {'line': b'copying resource/bumperbot_py_examples -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/share/ament_index/resource_index/packages\n'}
+[4.832725] (bumperbot_py_examples) StdoutLine: {'line': b'copying package.xml -> /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/share/bumperbot_py_examples\n'}
+[4.833112] (bumperbot_py_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.837811] (bumperbot_py_examples) StdoutLine: {'line': b'Copying ../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info\n'}
+[4.841569] (bumperbot_py_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[4.923130] (bumperbot_py_examples) StdoutLine: {'line': b'Installing simple_parameter script to /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples\n'}
+[4.923812] (bumperbot_py_examples) StdoutLine: {'line': b'Installing simple_publisher script to /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples\n'}
+[4.924481] (bumperbot_py_examples) StdoutLine: {'line': b'Installing simple_subscriber script to /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_py_examples/lib/bumperbot_py_examples\n'}
+[4.925512] (bumperbot_py_examples) StdoutLine: {'line': b"writing list of installed files to '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_py_examples/install.log'\n"}
+[4.932099] (-) TimerEvent: {}
+[4.998716] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.022526] (bumperbot_py_examples) CommandEnded: {'returncode': 0}
+[5.032674] (-) TimerEvent: {}
+[5.052493] (bumperbot_py_examples) JobEnded: {'identifier': 'bumperbot_py_examples', 'rc': 0}
+[5.059854] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Generating done\n'}
+[5.068290] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Build files have been written to: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples\n'}
+[5.102182] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[5.105428] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'build'}
+[5.107603] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples', '--', '-j4', '-l4'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.132838] (-) TimerEvent: {}
+[5.233531] (-) TimerEvent: {}
+[5.274846] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o\x1b[0m\n'}
+[5.276303] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o\x1b[0m\n'}
+[5.281425] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o\x1b[0m\n'}
+[5.333688] (-) TimerEvent: {}
+[5.434268] (-) TimerEvent: {}
+[5.534934] (-) TimerEvent: {}
+[5.635815] (-) TimerEvent: {}
+[5.736765] (-) TimerEvent: {}
+[5.837659] (-) TimerEvent: {}
+[5.938322] (-) TimerEvent: {}
+[6.038995] (-) TimerEvent: {}
+[6.139650] (-) TimerEvent: {}
+[6.240519] (-) TimerEvent: {}
+[6.341189] (-) TimerEvent: {}
+[6.442013] (-) TimerEvent: {}
+[6.542710] (-) TimerEvent: {}
+[6.643360] (-) TimerEvent: {}
+[6.744078] (-) TimerEvent: {}
+[6.844746] (-) TimerEvent: {}
+[6.945436] (-) TimerEvent: {}
+[7.046116] (-) TimerEvent: {}
+[7.146788] (-) TimerEvent: {}
+[7.247460] (-) TimerEvent: {}
+[7.348154] (-) TimerEvent: {}
+[7.448865] (-) TimerEvent: {}
+[7.549570] (-) TimerEvent: {}
+[7.650271] (-) TimerEvent: {}
+[7.750953] (-) TimerEvent: {}
+[7.851620] (-) TimerEvent: {}
+[7.952599] (-) TimerEvent: {}
+[8.053344] (-) TimerEvent: {}
+[8.154060] (-) TimerEvent: {}
+[8.255014] (-) TimerEvent: {}
+[8.355657] (-) TimerEvent: {}
+[8.456632] (-) TimerEvent: {}
+[8.557332] (-) TimerEvent: {}
+[8.657984] (-) TimerEvent: {}
+[8.758682] (-) TimerEvent: {}
+[8.859376] (-) TimerEvent: {}
+[8.960054] (-) TimerEvent: {}
+[9.060775] (-) TimerEvent: {}
+[9.161455] (-) TimerEvent: {}
+[9.262126] (-) TimerEvent: {}
+[9.362863] (-) TimerEvent: {}
+[9.463557] (-) TimerEvent: {}
+[9.564222] (-) TimerEvent: {}
+[9.664914] (-) TimerEvent: {}
+[9.765631] (-) TimerEvent: {}
+[9.866333] (-) TimerEvent: {}
+[9.967029] (-) TimerEvent: {}
+[10.067669] (-) TimerEvent: {}
+[10.168320] (-) TimerEvent: {}
+[10.268979] (-) TimerEvent: {}
+[10.369661] (-) TimerEvent: {}
+[10.470336] (-) TimerEvent: {}
+[10.570992] (-) TimerEvent: {}
+[10.671644] (-) TimerEvent: {}
+[10.776291] (-) TimerEvent: {}
+[10.876978] (-) TimerEvent: {}
+[10.977690] (-) TimerEvent: {}
+[11.078402] (-) TimerEvent: {}
+[11.180428] (-) TimerEvent: {}
+[11.281111] (-) TimerEvent: {}
+[11.381771] (-) TimerEvent: {}
+[11.482499] (-) TimerEvent: {}
+[11.583146] (-) TimerEvent: {}
+[11.683791] (-) TimerEvent: {}
+[11.784471] (-) TimerEvent: {}
+[11.885123] (-) TimerEvent: {}
+[11.985817] (-) TimerEvent: {}
+[12.086534] (-) TimerEvent: {}
+[12.187173] (-) TimerEvent: {}
+[12.287833] (-) TimerEvent: {}
+[12.388501] (-) TimerEvent: {}
+[12.494523] (-) TimerEvent: {}
+[12.598514] (-) TimerEvent: {}
+[12.702195] (-) TimerEvent: {}
+[12.802858] (-) TimerEvent: {}
+[12.903486] (-) TimerEvent: {}
+[13.004178] (-) TimerEvent: {}
+[13.106565] (-) TimerEvent: {}
+[13.207247] (-) TimerEvent: {}
+[13.307872] (-) TimerEvent: {}
+[13.408518] (-) TimerEvent: {}
+[13.509745] (-) TimerEvent: {}
+[13.610633] (-) TimerEvent: {}
+[13.714336] (-) TimerEvent: {}
+[13.815233] (-) TimerEvent: {}
+[13.915886] (-) TimerEvent: {}
+[14.016521] (-) TimerEvent: {}
+[14.117741] (-) TimerEvent: {}
+[14.218460] (-) TimerEvent: {}
+[14.319096] (-) TimerEvent: {}
+[14.420163] (-) TimerEvent: {}
+[14.520818] (-) TimerEvent: {}
+[14.621469] (-) TimerEvent: {}
+[14.722113] (-) TimerEvent: {}
+[14.826055] (-) TimerEvent: {}
+[14.926706] (-) TimerEvent: {}
+[15.027353] (-) TimerEvent: {}
+[15.128369] (-) TimerEvent: {}
+[15.229011] (-) TimerEvent: {}
+[15.329682] (-) TimerEvent: {}
+[15.430419] (-) TimerEvent: {}
+[15.531071] (-) TimerEvent: {}
+[15.631731] (-) TimerEvent: {}
+[15.732414] (-) TimerEvent: {}
+[15.833085] (-) TimerEvent: {}
+[15.933751] (-) TimerEvent: {}
+[16.034461] (-) TimerEvent: {}
+[16.135110] (-) TimerEvent: {}
+[16.235791] (-) TimerEvent: {}
+[16.336468] (-) TimerEvent: {}
+[16.439313] (-) TimerEvent: {}
+[16.539975] (-) TimerEvent: {}
+[16.642499] (-) TimerEvent: {}
+[16.743151] (-) TimerEvent: {}
+[16.844664] (-) TimerEvent: {}
+[16.945323] (-) TimerEvent: {}
+[17.045986] (-) TimerEvent: {}
+[17.147096] (-) TimerEvent: {}
+[17.247759] (-) TimerEvent: {}
+[17.348437] (-) TimerEvent: {}
+[17.449098] (-) TimerEvent: {}
+[17.549757] (-) TimerEvent: {}
+[17.650443] (-) TimerEvent: {}
+[17.751213] (-) TimerEvent: {}
+[17.854605] (-) TimerEvent: {}
+[17.955265] (-) TimerEvent: {}
+[18.055916] (-) TimerEvent: {}
+[18.156589] (-) TimerEvent: {}
+[18.257214] (-) TimerEvent: {}
+[18.357843] (-) TimerEvent: {}
+[18.458521] (-) TimerEvent: {}
+[18.559170] (-) TimerEvent: {}
+[18.659819] (-) TimerEvent: {}
+[18.760471] (-) TimerEvent: {}
+[18.856444] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable simple_parameter\x1b[0m\n'}
+[18.860684] (-) TimerEvent: {}
+[18.961407] (-) TimerEvent: {}
+[19.062300] (-) TimerEvent: {}
+[19.163173] (-) TimerEvent: {}
+[19.263948] (-) TimerEvent: {}
+[19.364795] (-) TimerEvent: {}
+[19.465607] (-) TimerEvent: {}
+[19.566371] (-) TimerEvent: {}
+[19.625949] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 66%] Built target simple_parameter\n'}
+[19.666533] (-) TimerEvent: {}
+[19.767165] (-) TimerEvent: {}
+[19.868159] (-) TimerEvent: {}
+[19.968815] (-) TimerEvent: {}
+[20.069470] (-) TimerEvent: {}
+[20.170182] (-) TimerEvent: {}
+[20.270952] (-) TimerEvent: {}
+[20.371674] (-) TimerEvent: {}
+[20.472370] (-) TimerEvent: {}
+[20.573061] (-) TimerEvent: {}
+[20.673752] (-) TimerEvent: {}
+[20.774507] (-) TimerEvent: {}
+[20.875496] (-) TimerEvent: {}
+[20.976161] (-) TimerEvent: {}
+[21.076827] (-) TimerEvent: {}
+[21.177465] (-) TimerEvent: {}
+[21.278105] (-) TimerEvent: {}
+[21.378796] (-) TimerEvent: {}
+[21.479418] (-) TimerEvent: {}
+[21.580065] (-) TimerEvent: {}
+[21.680699] (-) TimerEvent: {}
+[21.781303] (-) TimerEvent: {}
+[21.882264] (-) TimerEvent: {}
+[21.982941] (-) TimerEvent: {}
+[22.083596] (-) TimerEvent: {}
+[22.184232] (-) TimerEvent: {}
+[22.284897] (-) TimerEvent: {}
+[22.385578] (-) TimerEvent: {}
+[22.486271] (-) TimerEvent: {}
+[22.586990] (-) TimerEvent: {}
+[22.687655] (-) TimerEvent: {}
+[22.788313] (-) TimerEvent: {}
+[22.888965] (-) TimerEvent: {}
+[22.989622] (-) TimerEvent: {}
+[23.090292] (-) TimerEvent: {}
+[23.190983] (-) TimerEvent: {}
+[23.291637] (-) TimerEvent: {}
+[23.392275] (-) TimerEvent: {}
+[23.492932] (-) TimerEvent: {}
+[23.593562] (-) TimerEvent: {}
+[23.694214] (-) TimerEvent: {}
+[23.794899] (-) TimerEvent: {}
+[23.895523] (-) TimerEvent: {}
+[23.996171] (-) TimerEvent: {}
+[24.096789] (-) TimerEvent: {}
+[24.197397] (-) TimerEvent: {}
+[24.298067] (-) TimerEvent: {}
+[24.398800] (-) TimerEvent: {}
+[24.499433] (-) TimerEvent: {}
+[24.600064] (-) TimerEvent: {}
+[24.700668] (-) TimerEvent: {}
+[24.801279] (-) TimerEvent: {}
+[24.901890] (-) TimerEvent: {}
+[25.002571] (-) TimerEvent: {}
+[25.103275] (-) TimerEvent: {}
+[25.203943] (-) TimerEvent: {}
+[25.261571] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable simple_publisher\x1b[0m\n'}
+[25.304122] (-) TimerEvent: {}
+[25.404847] (-) TimerEvent: {}
+[25.505871] (-) TimerEvent: {}
+[25.606515] (-) TimerEvent: {}
+[25.707165] (-) TimerEvent: {}
+[25.807824] (-) TimerEvent: {}
+[25.908446] (-) TimerEvent: {}
+[26.009100] (-) TimerEvent: {}
+[26.109773] (-) TimerEvent: {}
+[26.147480] (bumperbot_cpp_examples) StdoutLine: {'line': b'[ 83%] Built target simple_publisher\n'}
+[26.209952] (-) TimerEvent: {}
+[26.310561] (-) TimerEvent: {}
+[26.411160] (-) TimerEvent: {}
+[26.511894] (-) TimerEvent: {}
+[26.612538] (-) TimerEvent: {}
+[26.713357] (-) TimerEvent: {}
+[26.814009] (-) TimerEvent: {}
+[26.914805] (-) TimerEvent: {}
+[27.015558] (-) TimerEvent: {}
+[27.116314] (-) TimerEvent: {}
+[27.217081] (-) TimerEvent: {}
+[27.317865] (-) TimerEvent: {}
+[27.418650] (-) TimerEvent: {}
+[27.519405] (-) TimerEvent: {}
+[27.620124] (-) TimerEvent: {}
+[27.720742] (-) TimerEvent: {}
+[27.821486] (-) TimerEvent: {}
+[27.922251] (-) TimerEvent: {}
+[28.023026] (-) TimerEvent: {}
+[28.123756] (-) TimerEvent: {}
+[28.224511] (-) TimerEvent: {}
+[28.325283] (-) TimerEvent: {}
+[28.426084] (-) TimerEvent: {}
+[28.526940] (-) TimerEvent: {}
+[28.627779] (-) TimerEvent: {}
+[28.728554] (-) TimerEvent: {}
+[28.829152] (-) TimerEvent: {}
+[28.929924] (-) TimerEvent: {}
+[29.030683] (-) TimerEvent: {}
+[29.131427] (-) TimerEvent: {}
+[29.232174] (-) TimerEvent: {}
+[29.332948] (-) TimerEvent: {}
+[29.433729] (-) TimerEvent: {}
+[29.534492] (-) TimerEvent: {}
+[29.635248] (-) TimerEvent: {}
+[29.735991] (-) TimerEvent: {}
+[29.836600] (-) TimerEvent: {}
+[29.937358] (-) TimerEvent: {}
+[30.037961] (-) TimerEvent: {}
+[30.138742] (-) TimerEvent: {}
+[30.239509] (-) TimerEvent: {}
+[30.340254] (-) TimerEvent: {}
+[30.441004] (-) TimerEvent: {}
+[30.541604] (-) TimerEvent: {}
+[30.642382] (-) TimerEvent: {}
+[30.742980] (-) TimerEvent: {}
+[30.843734] (-) TimerEvent: {}
+[30.944513] (-) TimerEvent: {}
+[31.045298] (-) TimerEvent: {}
+[31.146052] (-) TimerEvent: {}
+[31.246879] (-) TimerEvent: {}
+[31.347665] (-) TimerEvent: {}
+[31.448440] (-) TimerEvent: {}
+[31.549049] (-) TimerEvent: {}
+[31.649807] (-) TimerEvent: {}
+[31.750439] (-) TimerEvent: {}
+[31.853010] (-) TimerEvent: {}
+[31.953624] (-) TimerEvent: {}
+[32.054258] (-) TimerEvent: {}
+[32.155026] (-) TimerEvent: {}
+[32.255786] (-) TimerEvent: {}
+[32.356542] (-) TimerEvent: {}
+[32.457315] (-) TimerEvent: {}
+[32.558080] (-) TimerEvent: {}
+[32.658898] (-) TimerEvent: {}
+[32.759659] (-) TimerEvent: {}
+[32.860465] (-) TimerEvent: {}
+[32.961236] (-) TimerEvent: {}
+[33.061983] (-) TimerEvent: {}
+[33.162656] (-) TimerEvent: {}
+[33.263417] (-) TimerEvent: {}
+[33.364180] (-) TimerEvent: {}
+[33.464957] (-) TimerEvent: {}
+[33.565750] (-) TimerEvent: {}
+[33.666615] (-) TimerEvent: {}
+[33.767277] (-) TimerEvent: {}
+[33.868115] (-) TimerEvent: {}
+[33.968852] (-) TimerEvent: {}
+[34.069482] (-) TimerEvent: {}
+[34.170235] (-) TimerEvent: {}
+[34.271034] (-) TimerEvent: {}
+[34.371908] (-) TimerEvent: {}
+[34.473030] (-) TimerEvent: {}
+[34.573693] (-) TimerEvent: {}
+[34.674478] (-) TimerEvent: {}
+[34.775269] (-) TimerEvent: {}
+[34.876058] (-) TimerEvent: {}
+[34.976875] (-) TimerEvent: {}
+[35.077683] (-) TimerEvent: {}
+[35.178507] (-) TimerEvent: {}
+[35.279277] (-) TimerEvent: {}
+[35.380037] (-) TimerEvent: {}
+[35.480805] (-) TimerEvent: {}
+[35.581563] (-) TimerEvent: {}
+[35.682257] (-) TimerEvent: {}
+[35.783049] (-) TimerEvent: {}
+[35.883804] (-) TimerEvent: {}
+[35.984584] (-) TimerEvent: {}
+[36.085357] (-) TimerEvent: {}
+[36.186125] (-) TimerEvent: {}
+[36.286904] (-) TimerEvent: {}
+[36.387500] (-) TimerEvent: {}
+[36.488269] (-) TimerEvent: {}
+[36.589023] (-) TimerEvent: {}
+[36.689785] (-) TimerEvent: {}
+[36.790531] (-) TimerEvent: {}
+[36.891282] (-) TimerEvent: {}
+[36.992033] (-) TimerEvent: {}
+[37.092779] (-) TimerEvent: {}
+[37.193479] (-) TimerEvent: {}
+[37.294198] (-) TimerEvent: {}
+[37.394971] (-) TimerEvent: {}
+[37.495728] (-) TimerEvent: {}
+[37.596501] (-) TimerEvent: {}
+[37.697270] (-) TimerEvent: {}
+[37.798017] (-) TimerEvent: {}
+[37.898795] (-) TimerEvent: {}
+[37.999587] (-) TimerEvent: {}
+[38.100334] (-) TimerEvent: {}
+[38.201089] (-) TimerEvent: {}
+[38.301847] (-) TimerEvent: {}
+[38.402648] (-) TimerEvent: {}
+[38.503400] (-) TimerEvent: {}
+[38.604142] (-) TimerEvent: {}
+[38.704737] (-) TimerEvent: {}
+[38.805345] (-) TimerEvent: {}
+[38.905948] (-) TimerEvent: {}
+[39.006574] (-) TimerEvent: {}
+[39.107179] (-) TimerEvent: {}
+[39.207773] (-) TimerEvent: {}
+[39.308382] (-) TimerEvent: {}
+[39.408983] (-) TimerEvent: {}
+[39.509569] (-) TimerEvent: {}
+[39.610173] (-) TimerEvent: {}
+[39.710809] (-) TimerEvent: {}
+[39.811473] (-) TimerEvent: {}
+[39.912151] (-) TimerEvent: {}
+[40.012731] (-) TimerEvent: {}
+[40.113332] (-) TimerEvent: {}
+[40.214056] (-) TimerEvent: {}
+[40.314915] (-) TimerEvent: {}
+[40.415680] (-) TimerEvent: {}
+[40.480964] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_subscriber\x1b[0m\n'}
+[40.515833] (-) TimerEvent: {}
+[40.616458] (-) TimerEvent: {}
+[40.717155] (-) TimerEvent: {}
+[40.817875] (-) TimerEvent: {}
+[40.918787] (-) TimerEvent: {}
+[41.019628] (-) TimerEvent: {}
+[41.120414] (-) TimerEvent: {}
+[41.221068] (-) TimerEvent: {}
+[41.321862] (-) TimerEvent: {}
+[41.422596] (-) TimerEvent: {}
+[41.523187] (-) TimerEvent: {}
+[41.623857] (-) TimerEvent: {}
+[41.724448] (-) TimerEvent: {}
+[41.825036] (-) TimerEvent: {}
+[41.925698] (-) TimerEvent: {}
+[42.026411] (-) TimerEvent: {}
+[42.127000] (-) TimerEvent: {}
+[42.179838] (bumperbot_cpp_examples) StdoutLine: {'line': b'[100%] Built target simple_subscriber\n'}
+[42.218830] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[42.227119] (-) TimerEvent: {}
+[42.318992] (bumperbot_cpp_examples) JobProgress: {'identifier': 'bumperbot_cpp_examples', 'progress': 'install'}
+[42.319972] (bumperbot_cpp_examples) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples'], 'cwd': '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dev'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dev'), ('OLDPWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1528'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4209'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dev'), ('JOURNAL_STREAM', '8:31081'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dev'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Servant:@/tmp/.ICE-unix/1505,unix/Servant:/tmp/.ICE-unix/1505'), ('INVOCATION_ID', 'c408134b291c4033ad1c337d125bcf62'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MPNGU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f7f11887-a798-4fff-ad97-4dd57c595be7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[42.327297] (-) TimerEvent: {}
+[42.344830] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[42.345532] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher\n'}
+[42.352412] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""\n'}
+[42.353101] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber\n'}
+[42.371746] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""\n'}
+[42.372408] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter\n'}
+[42.374604] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""\n'}
+[42.375339] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples\n'}
+[42.376181] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples\n'}
+[42.377122] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh\n'}
+[42.377774] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv\n'}
+[42.378522] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh\n'}
+[42.379241] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv\n'}
+[42.379935] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash\n'}
+[42.380642] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh\n'}
+[42.381353] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh\n'}
+[42.382024] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv\n'}
+[42.382770] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv\n'}
+[42.383681] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples\n'}
+[42.384526] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake\n'}
+[42.385107] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake\n'}
+[42.385739] (bumperbot_cpp_examples) StdoutLine: {'line': b'-- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml\n'}
+[42.390611] (bumperbot_cpp_examples) CommandEnded: {'returncode': 0}
+[42.427501] (-) TimerEvent: {}
+[42.528349] (-) TimerEvent: {}
+[42.540900] (bumperbot_cpp_examples) JobEnded: {'identifier': 'bumperbot_cpp_examples', 'rc': 0}
+[42.543487] (-) EventReactorShutdown: {}
