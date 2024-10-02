@@ -2,7 +2,18 @@
 
 <robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
 
+
   <!-- Move this one to ros2 control -->
+  <!-- 
+  The following section defines the transmission for the robot's wheels, both right and left.
+  In robotics, a transmission connects the motor (actuator) to the joint, enabling movement.
+  This file uses the SimpleTransmission plugin, which allows basic transmission functionality,
+  directly linking the actuator's output (torque and speed) to the wheels' joints.
+  The actuator element specifies the motor responsible for the wheel's movement, while
+  the joint element defines the connection point between the motor and the physical wheel.
+  The mechanical reduction is set to 1.0, meaning no reduction or amplification of the motor's power.
+  This setup ensures the motor output is applied directly to the wheel without any modifications.
+  -->
   <transmission name="wheel_right_transmission">
     <plugin>transmission_interface/SimpleTransmission</plugin>
     <actuator name="wheel_right_motor" role="actuator_right"/>

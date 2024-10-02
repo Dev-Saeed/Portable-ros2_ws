@@ -1,4 +1,16 @@
 <?xml version="1.0"?>
+<!-- 
+This file is responsible for defining certain properties related to the
+simulation in the Gazebo environment. 
+
+Such as the direction of rotation, the amount of friction between the wheels
+and the ground, the mechanical reduction of the transmission, damping 
+(kp and kd values), the minimum depth for collision detection, and the 
+maximum velocity of the wheels and caster wheels. 
+
+Additionally, it includes the configuration for integrating ROS 2 control 
+to simulate the robot's hardware interface in the Gazebo environment.
+-->
 
 <robot name="agrisentenel" xmlns:xacro="http://ros.org/wiki/xacro">
 

@@ -1,0 +1,26 @@
+[0.112s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.441s] [ 33%] Built target simple_parameter
+[0.447s] [100%] Built target simple_publisher
+[0.448s] [100%] Built target simple_subscriber
+[1.537s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[1.836s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples
+[1.989s] -- Install configuration: ""
+[1.990s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[1.993s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[1.994s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[1.994s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[1.995s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[1.995s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[1.996s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[1.999s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[2.000s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[2.000s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[2.001s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[2.001s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[2.002s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[2.006s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[2.006s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[2.007s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[2.007s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[2.008s] -- Up-to-date: /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[2.107s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section5_Control/bumperbot_ws/build/bumperbot_cpp_examples

@@ -1,17 +1,29 @@
 controller_manager:
   ros__parameters:
+    # The update rate defines how often (in Hz) the controller manager will update the controllers
+    # and send commands to the robot. Here, it's set to 100 Hz, meaning 100 updates per second.
     update_rate: 100 # Hz
+
+    # This flag enables the use of simulated time. When using a simulation like Gazebo,
+    # it's important to synchronize with the simulation's clock instead of the real-world clock.
     use_sim_time: true
 
+    # The joint_state_broadcaster is responsible for publishing the current joint states (positions, velocities, etc.)
+    # to a ROS topic. Other nodes can subscribe to this topic to get real-time joint information.
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
+    # The simple_velocity_controller controls the velocity of a group of joints. In this case, it will control
+    # the velocity of the robot's wheels (specified later in the configuration). It sends velocity commands to the robot.
     simple_velocity_controller:
       type: velocity_controllers/JointGroupVelocityController
 
 
+# Configuration for the simple_velocity_controller
 simple_velocity_controller:
   ros__parameters:
+    # Define which joints the velocity controller will manage.
+    # In this case, the controller is responsible for the left and right wheel joints.
     joints:
       - wheel_left_joint
       - wheel_right_joint
