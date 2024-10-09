@@ -1,0 +1,49 @@
+[5.756s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/bumperbot_ws/src/bumperbot_py_examples': PYTHONPATH=/home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_py_examples build --build-base /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build install --record /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
+[9.083s] running egg_info
+[9.096s] creating ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info
+[9.100s] writing ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/PKG-INFO
+[9.101s] writing dependency_links to ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/dependency_links.txt
+[9.111s] writing entry points to ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/entry_points.txt
+[9.112s] writing requirements to ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/requires.txt
+[9.113s] writing top-level names to ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/top_level.txt
+[9.116s] writing manifest file '../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[9.139s] reading manifest file '../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[9.155s] writing manifest file '../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info/SOURCES.txt'
+[9.156s] running build
+[9.156s] running build_py
+[9.159s] creating /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build
+[9.162s] creating /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib
+[9.162s] creating /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[9.163s] copying bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[9.163s] copying bumperbot_py_examples/simple_subscriber.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[9.164s] copying bumperbot_py_examples/simple_parameter.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[9.165s] copying bumperbot_py_examples/simple_publisher.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[9.166s] copying bumperbot_py_examples/__init__.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples
+[9.167s] running install
+[9.173s] running install_lib
+[9.181s] creating /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[9.188s] copying /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_turtlesim_kinematics.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[9.189s] copying /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_subscriber.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[9.190s] copying /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_parameter.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[9.198s] copying /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/simple_publisher.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[9.198s] copying /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build/lib/bumperbot_py_examples/__init__.py -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples
+[9.202s] byte-compiling /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_turtlesim_kinematics.py to simple_turtlesim_kinematics.cpython-310.pyc
+[9.212s] byte-compiling /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_subscriber.py to simple_subscriber.cpython-310.pyc
+[9.213s] byte-compiling /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_parameter.py to simple_parameter.cpython-310.pyc
+[9.219s] byte-compiling /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/simple_publisher.py to simple_publisher.cpython-310.pyc
+[9.229s] byte-compiling /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples/__init__.py to __init__.cpython-310.pyc
+[9.229s] running install_data
+[9.237s] creating /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/share/ament_index
+[9.238s] creating /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/share/ament_index/resource_index
+[9.239s] creating /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[9.242s] copying resource/bumperbot_py_examples -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/share/ament_index/resource_index/packages
+[9.243s] copying package.xml -> /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/share/bumperbot_py_examples
+[9.244s] running install_egg_info
+[9.267s] Copying ../../../build/bumperbot_py_examples/bumperbot_py_examples.egg-info to /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages/bumperbot_py_examples-0.0.0-py3.10.egg-info
+[9.278s] running install_scripts
+[9.540s] Installing simple_parameter script to /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[9.545s] Installing simple_publisher script to /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[9.553s] Installing simple_subscriber script to /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[9.557s] Installing simple_turtlesim_kinematics script to /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/bumperbot_py_examples
+[9.563s] writing list of installed files to '/home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/install.log'
+[9.773s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/bumperbot_ws/src/bumperbot_py_examples' returned '0': PYTHONPATH=/home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/install/bumperbot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/bumperbot_py_examples build --build-base /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/build install --record /home/dev/ros2_ws/Self-Driving/Section7_Differential_Kinematics/build/bumperbot_py_examples/install.log --single-version-externally-managed install_data
