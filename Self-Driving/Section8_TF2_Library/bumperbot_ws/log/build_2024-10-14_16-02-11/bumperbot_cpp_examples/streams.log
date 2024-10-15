@@ -1,0 +1,98 @@
+[0.142s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg:/home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples
+[0.611s] -- The C compiler identification is GNU 11.4.0
+[0.967s] -- The CXX compiler identification is GNU 11.4.0
+[1.007s] -- Detecting C compiler ABI info
+[1.566s] -- Detecting C compiler ABI info - done
+[1.652s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.656s] -- Detecting C compile features
+[1.659s] -- Detecting C compile features - done
+[1.675s] -- Detecting CXX compiler ABI info
+[2.155s] -- Detecting CXX compiler ABI info - done
+[2.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.229s] -- Detecting CXX compile features
+[2.229s] -- Detecting CXX compile features - done
+[2.246s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.412s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.970s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[4.182s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.213s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.283s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.646s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.080s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[5.105s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.652s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.769s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.996s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.041s] -- Looking for pthread.h
+[6.486s] -- Looking for pthread.h - found
+[6.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.037s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.043s] -- Found Threads: TRUE  
+[7.375s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[7.793s] -- Found bumperbot_msgs: 0.0.0 (/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake)
+[7.997s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[8.070s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.114s] -- Configuring done
+[9.311s] -- Generating done
+[9.322s] -- Build files have been written to: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples
+[9.400s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg:/home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/src/bumperbot_cpp_examples -DCMAKE_INSTALL_PREFIX=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples
+[9.412s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg:/home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[9.747s] [  7%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[9.758s] [ 14%] [32mBuilding CXX object CMakeFiles/simple_publisher.dir/src/simple_publisher.cpp.o[0m
+[9.763s] [ 21%] [32mBuilding CXX object CMakeFiles/simple_subscriber.dir/src/simple_subscriber.cpp.o[0m
+[10.830s] [ 28%] [32mBuilding CXX object CMakeFiles/simple_turtlesim_kinematics.dir/src/simple_turtlesim_kinematics.cpp.o[0m
+[50.797s] [ 35%] [32m[1mLinking CXX executable simple_parameter[0m
+[52.363s] [ 35%] Built target simple_parameter
+[54.060s] [ 42%] [32m[1mLinking CXX executable simple_publisher[0m
+[56.448s] [ 42%] Built target simple_publisher
+[74.532s] [ 50%] [32m[1mLinking CXX executable simple_subscriber[0m
+[76.790s] [ 50%] Built target simple_subscriber
+[80.922s] [ 57%] [32m[1mLinking CXX executable simple_turtlesim_kinematics[0m
+[83.239s] [ 57%] Built target simple_turtlesim_kinematics
+[83.319s] [ 64%] [32mBuilding CXX object CMakeFiles/simple_tf_kinematics.dir/src/simple_tf_kinematics.cpp.o[0m
+[108.769s] [ 71%] [32m[1mLinking CXX executable simple_tf_kinematics[0m
+[110.342s] [ 71%] Built target simple_tf_kinematics
+[110.443s] [ 78%] [32mBuilding CXX object CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o[0m
+[127.202s] [ 85%] [32m[1mLinking CXX executable simple_service_client[0m
+[128.069s] [ 85%] Built target simple_service_client
+[128.153s] [ 92%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[144.503s] [100%] [32m[1mLinking CXX executable simple_service_server[0m
+[145.329s] [100%] Built target simple_service_server
+[145.379s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg:/home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[145.556s] Invoking command in '/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg:/home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples
+[145.584s] -- Install configuration: ""
+[145.585s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[145.586s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[145.587s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[145.587s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[145.588s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[145.594s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[145.595s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[145.611s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[145.612s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[145.614s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[145.615s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[145.632s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[145.633s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[145.637s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+[145.638s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[145.642s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+[145.643s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[145.651s] -- Set runtime path of "/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[145.651s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[145.653s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[145.654s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[145.654s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[145.655s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[145.656s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[145.657s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[145.658s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[145.659s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[145.659s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[145.660s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[145.662s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[145.663s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[145.664s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[145.664s] -- Installing: /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[145.676s] Invoked command in '/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs:/home/dev/ros2_ws/ATech_ws/install/my_cpp_pkg:/home/dev/ros2_ws/ATech_ws/install/Agrisentenel_Description:/opt/ros/humble LD_LIBRARY_PATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dev/ros2_ws/Self-Driving/Section8_TF2_Library/bumperbot_ws/build/bumperbot_cpp_examples
